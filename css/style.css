@@ -161,3 +161,18 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+/* Para móviles */
+@media (max-width: 768px) {
+  .contenedor-tarjetas {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 15px;
+  }
+  
+  .tarjeta {
+    max-width: 100%;
+    height: auto;
+    min-height: 280px;
+  }
+}
